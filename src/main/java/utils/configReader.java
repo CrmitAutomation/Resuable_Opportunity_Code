@@ -10,7 +10,7 @@ public class configReader {
         try {
             // To read the config.properties file we use below method by creating object
             FileReader reader = new FileReader(
-                    System.getProperty("user.dir") + "\\src\\main\\resources\\Config\\Config.Properties");
+                    System.getProperty("user.dir") + "\\src\\main\\resources\\ConfigFiles\\Config.Properties");
 
             // To load the config file
             prop.load(reader);
